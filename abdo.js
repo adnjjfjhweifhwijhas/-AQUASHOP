@@ -15,7 +15,7 @@ window.onscroll = function () {
     boat6.style.top = value * 1.5 + "px"
     boat6.style.left = value * 3 + "px"
     if (scrollY >= 127) {
-        document.querySelector(".main").style.background = "#00a2ffff";
+        document.querySelector(".main").style.background = "#003757ff";
     }
    
 }

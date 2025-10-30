@@ -11,6 +11,7 @@ a{
     text-decoration: none;
     color: aliceblue;
 }
+img{ width: 100%; height: 300px; }
 header{
     position: fixed;
     width:95% ;
@@ -85,4 +86,19 @@ header ul li a:hover,.active{
 }
 .content p{
     margin:20px ;
+}
+@media(max-width:1000px){
+    header {margin-left: 20px;}
+    header.logo  {margin-right: 20px;}
+    header ul {margin-right: 10px;}
+    header ul li {margin-right: 28px;}
+    .main{ height:auto ;
+    padding: 4rem 2rem ;}
+    .main::after{ display: none;}
+    .main img{ position: relative; height: auto; }
+    .ABDELKARIM{ transform: translateY(0px); text-align: center; }
+}
+@media(max-width:600px){
+    header ul { flex-direction: column; }
+    header logo { margin-bottom: 10px; }
 }
